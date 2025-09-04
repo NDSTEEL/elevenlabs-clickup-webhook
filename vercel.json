@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/webhook-elevenlabs.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/webhook/elevenlabs",
+      "destination": "/api/webhook-elevenlabs"
+    }
+  ]
+}
